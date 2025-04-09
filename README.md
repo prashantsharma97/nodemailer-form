@@ -41,42 +41,36 @@ Follow these steps to get the project up and running on your local machine:
    cd portfolio-contact-form
 Install dependencies:
 
-bash
-Copy
+
 npm install
 Create a .env file to store sensitive information like email credentials:
 
-bash
-Copy
+
 touch .env
 Inside .env, add the following variables:
 
-plaintext
-Copy
+
 EMAIL_USER=your-email@gmail.com
 EMAIL_PASS=your-email-password
 Start the server:
 
-bash
-Copy
+
 npm start
 Your server should be running on http://localhost:5000.
 
 Frontend Setup (React.js)
 Navigate to the frontend directory:
 
-bash
-Copy
+
 cd client
 Install frontend dependencies:
 
-bash
-Copy
+
 npm install
 Start the frontend development server:
 
-bash
-Copy
+
+
 npm start
 The frontend should be available at http://localhost:3000.
 
@@ -88,8 +82,7 @@ Enable Less Secure Apps: For Gmail, you need to enable "less secure apps" or use
 App-Specific Password: If you have Two-Factor Authentication enabled on Gmail, you'll need to generate an App-Specific Password to use in the .env file.
 
 Project Structure
-bash
-Copy
+
 portfolio-contact-form/
 ├── client/                # React.js frontend
 │   ├── public/            # Public assets
@@ -100,6 +93,7 @@ portfolio-contact-form/
 │   ├── server.js          # Main server file with API routes
 │   └── .env               # Environment variables (email credentials)
 └── README.md              # Project documentation
+
 How It Works
 The user visits the contact page on the frontend (client/).
 
@@ -120,9 +114,6 @@ Feel free to fork this repository and contribute to the project. If you find a b
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-markdown
-Copy
-
 ---
 
 ### Key Sections:
@@ -137,6 +128,5 @@ Copy
 8. **Contributing**: How others can contribute to the project.
 9. **License**: Licensing information (if you plan to open-source it).
 
-This `README.md` is structured to provide clear instructions for anyone setting up or contributing to the project. You can customize it further based on your needs!
 
 
