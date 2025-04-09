@@ -57,7 +57,7 @@ const express = require('express');
 const nodemailer = require('nodemailer');
 const path = require('path');
 const fs = require('fs');
-const emailService = require('./server/emailService.js'); // Import emailService to send emails
+const emailService = require('./api/send-email.js'); // Import emailService to send emails
 
 const app = express();
 app.use(express.json());
