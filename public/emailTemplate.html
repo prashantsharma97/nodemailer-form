@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Template</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000000; /* Black background */
+      color: #ffffff; /* White text color */
+      overflow-y: hidden; /* Prevent horizontal scroll */
+    }
+    .email-container {
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #1e1e1e;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .header h1 {
+      color: #16a44b; /* Green color for heading */
+      font-size: 32px;
+      margin: 0;
+      padding: 10px;
+    }
+    .content {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #dcdcdc; /* Light gray text */
+      margin-bottom: 20px;
+    }
+    .footer {
+      text-align: center;
+      font-size: 14px;
+      color: #888888; /* Slightly lighter gray for footer */
+    }
+    .footer a {
+      color: #16a44b; /* Green color for links */
+      text-decoration: none;
+    }
+    .button-container {
+      text-align: center; /* Center the button */
+      margin-top: 20px;
+    }
+    .button {
+      display: inline-block;
+      background-color: #16a44b; /* Green button */
+      color: #ffffff;
+      padding: 12px 25px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    .button:hover {
+      background-color: #138e3d; /* Darker green on hover */
+    }
+    
+    /* Mobile-responsive Styles */
+    @media screen and (max-width: 600px) {
+      .email-container {
+        padding: 15px; /* Reduced padding on smaller screens */
+      }
+      .header h1 {
+        font-size: 24px; /* Adjust heading size for mobile */
+      }
+      .content {
+        font-size: 14px; /* Adjust text size for mobile */
+      }
+      .button {
+        padding: 10px 20px; /* Smaller button padding on mobile */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="email-container">
+    <!-- Header Section -->
+    <div class="header">
+      <h1>JsonSharma</h1>
+    </div>
+    
+    <!-- Content Section -->
+    <div class="content">
+        <p>Recipient [Recipient's Name],</p>
+        <p>We have received this message</p>
+      
+      <!-- Dynamic Message -->
+      <p><strong>Your Message:</strong></p>
+      <p style="white-space: pre-wrap;">[UserMessage]</p> <!-- Placeholder for user's message -->
+
+      <p>If you have any further questions or need immediate assistance, feel free to click the button below:</p>
+      
+      <!-- Centered Button -->
+      <div class="button-container">
+        <a href="https://jsonsharma.netlify.app" class="button">Visit Our Website</a>
+      </div>
+    </div>
+    
+    <!-- Footer Section -->
+    <div class="footer">
+      <p>© 2025 JsonSharma. All rights reserved.</p>
+      <p><a href="https://jsonsharma.netlify.app">Privacy Policy</a> | <a href="https://jsonsharma.netlify.app">Terms of Service</a></p>
+    </div>
+  </div>
+</body>
+</html>
