@@ -5,6 +5,9 @@ const fs = require('fs');
 require('dotenv').config(); // Make sure you have a .env file
 
 const app = express();
+app.use(cors({
+    origin: 'https://jsonsharma.netlify.app' 
+}));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, '../public')));
 
